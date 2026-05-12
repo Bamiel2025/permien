@@ -215,25 +215,27 @@ const App: React.FC = () => {
                  </button>
 
                  {isUnlocked && (
-                    <a 
-                      href="/images/vomidupermienpresentationmanus.pdf" 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      className="flex items-center gap-3 text-emerald-600 hover:text-emerald-700 transition-colors animate-in fade-in slide-in-from-left-4 duration-500"
-                    >
-                        <FileText size={16} />
-                        <span className="text-[10px] font-bold uppercase tracking-widest">Résultat de l'enquête (PDF)</span>
-                    </a>
-                    
-                    <a 
-                      href="https://www.sciencesetavenir.fr/archeo-paleo/paleontologie/le-plus-vieux-vomi-fossile-revele-le-regime-alimentaire-de-grands-predateurs-qui-ont-vecu-avant-les-dinosaures_190821" 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      className="flex items-center gap-3 text-sky-600 hover:text-sky-700 transition-colors animate-in fade-in slide-in-from-left-4 duration-700 mt-2"
-                    >
-                        <ExternalLink size={16} />
-                        <span className="text-[10px] font-bold uppercase tracking-widest">Article Sciences et Avenir</span>
-                    </a>
+                    <>
+                      <a 
+                        href="/images/vomidupermienpresentationmanus.pdf" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-3 text-emerald-600 hover:text-emerald-700 transition-colors animate-in fade-in slide-in-from-left-4 duration-500"
+                      >
+                          <FileText size={16} />
+                          <span className="text-[10px] font-bold uppercase tracking-widest">Résultat de l'enquête (PDF)</span>
+                      </a>
+                      
+                      <a 
+                        href="https://www.sciencesetavenir.fr/archeo-paleo/paleontologie/le-plus-vieux-vomi-fossile-revele-le-regime-alimentaire-de-grands-predateurs-qui-ont-vecu-avant-les-dinosaures_190821" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-3 text-sky-600 hover:text-sky-700 transition-colors animate-in fade-in slide-in-from-left-4 duration-700 mt-2"
+                      >
+                          <ExternalLink size={16} />
+                          <span className="text-[10px] font-bold uppercase tracking-widest">Article Sciences et Avenir</span>
+                      </a>
+                    </>
                  )}
               </div>
             </aside>
