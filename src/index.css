@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Georgia", serif;
+  --font-sans: "Helvetica Neue", Arial, sans-serif;
+
+  --color-warm-bg: #fdfbf7;
+  --color-warm-panel: #ffffff;
+  --color-warm-accent: #5d6d31;
+  --color-warm-accent-light: #e8eadb;
+  --color-warm-text: #2c2c2c;
+  --color-warm-muted: #7d7d7d;
+  --color-warm-line: #dcd7c9;
+}
+
+@layer base {
+  body {
+    @apply bg-warm-bg text-warm-text font-sans;
+  }
+  
+  h1, h2, h3, h4 {
+    @apply font-serif;
+  }
+}
